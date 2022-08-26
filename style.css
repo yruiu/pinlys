@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Colab";
+  src: url("ColabBol.otf") format("opentype");
+}
+body {
+  width: 100%;
+  background: #f0f0ef;
+}
+body .main {
+  font-family: "Open Sans", sans-serif;
+}
+body .main .singlePart {
+  width: 256px;
+  display: inline-block;
+}
+body .main header {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.17);
+  background: #fff;
+  width: 100%;
+}
+body .main header .logo {
+  display: inline-flex;
+  text-align: center;
+}
+body .main header .logo .logoText {
+  font-family: "Colab", sans-serif;
+  text-align: center;
+  margin-top: 10%;
+}

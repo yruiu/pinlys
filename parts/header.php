@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="main">
+	<header class="header">
+	<div class="container">
+		<div class="logo">
+			<img src="data:image/png;base64,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">
+			<h1 class="logoText" max-length=5>Pinley</h1>
+
+		</div>
+	</div>
+	</header>
+	<div class="container">
